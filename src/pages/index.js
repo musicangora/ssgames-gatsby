@@ -21,7 +21,7 @@ const IndexPage = () => (
       <Section id="about">
         <h2
           style={{
-            color: `#b6b6ba`,
+            color: `#70707a`,
             fontSize: `24px`,
             fontFamily: `sans-serif`,
             fontWeight: 600,
@@ -31,12 +31,17 @@ const IndexPage = () => (
         >
           私たちについて
         </h2>
-        <p style={{ fontSize: `14px`, lineHeight: 1.8 }}>おんぎゃああああ</p>
+        <p style={{ fontSize: `14px`, lineHeight: 1.8 }}>
+          ゲーム制作をしている学生サークルです。
+          <br />
+          「星のように輝く作品を生み出す源でありたい」という思いから、StarSource
+          Gamesと名付けました。
+        </p>
       </Section>
       <Section id="works">
         <h2
           style={{
-            color: `#b6b6ba`,
+            color: `#70707a`,
             fontSize: `24px`,
             fontFamily: `sans-serif`,
             fontWeight: 600,
@@ -51,11 +56,13 @@ const IndexPage = () => (
             src={SpaceCleaner}
             category="2019 - Android App"
             title="SPACE CLEANER"
+            description="ブラックホールで隕石を吸い込み惑星を守るゲーム"
           />
           <WorkItem
             src={CmyCatch}
             category="2019 - Android App"
             title="CMY CATCH"
+            description="パドルの色を上から落ちてくるブロックの色と揃えてキャッチしていくゲーム"
           />
         </ul>
       </Section>
@@ -81,6 +88,7 @@ const IndexPage = () => (
             <a
               style={{
                 color: `#222`,
+                fontSize: `16px`,
                 margin: `16px`,
                 textDecoration: `none`,
               }}
@@ -89,7 +97,12 @@ const IndexPage = () => (
               Twitter
             </a>
             <a
-              style={{ color: `#222`, margin: `16px`, textDecoration: `none` }}
+              style={{
+                color: `#222`,
+                fontSize: `16px`,
+                margin: `16px`,
+                textDecoration: `none`,
+              }}
               href="#"
             >
               Instagram

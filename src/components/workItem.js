@@ -16,18 +16,26 @@ const WorkItem = props => (
         lineHeight: 1,
         letterSpacing: `0.5px`,
         margin: `6px 0 2px`,
-        color: `#4caf50`,
+        color: `#222`,
       }}
     >
       {props.category}
     </h3>
     <h3
       style={{
+        fontSize: `20px`,
         fontWeight: 600,
       }}
     >
       {props.title}
     </h3>
+    <p
+      style={{
+        fontSize: `16px`,
+      }}
+    >
+      {props.description}
+    </p>
   </li>
 )
 
