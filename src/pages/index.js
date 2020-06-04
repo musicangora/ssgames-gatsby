@@ -57,12 +57,14 @@ const IndexPage = () => (
             category="2019 - Android App"
             title="SPACE CLEANER"
             description="ブラックホールで隕石を吸い込み惑星を守るゲーム"
+            link="https://play.google.com/store/apps/details?id=com.StarSource.SPACECLEANER"
           />
           <WorkItem
             src={CmyCatch}
             category="2019 - Android App"
             title="CMY CATCH"
             description="パドルの色を上から落ちてくるブロックの色と揃えてキャッチしていくゲーム"
+            link="https://play.google.com/store/apps/details?id=com.StarSource.CMYCatch"
           />
         </ul>
       </Section>
@@ -92,7 +94,7 @@ const IndexPage = () => (
                 margin: `16px`,
                 textDecoration: `none`,
               }}
-              href="#"
+              href="https://twitter.com/starsourcegames"
             >
               Twitter
             </a>
@@ -103,7 +105,7 @@ const IndexPage = () => (
                 margin: `16px`,
                 textDecoration: `none`,
               }}
-              href="#"
+              href="https://www.instagram.com/starsourcegames/"
             >
               Instagram
             </a>

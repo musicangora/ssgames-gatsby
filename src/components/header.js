@@ -72,7 +72,7 @@ const Header = ({ siteTitle }) => (
           fontWeight: 600,
           letterSpacing: `0.5px`,
         }}
-        href="#"
+        href="https://ss-games.hatenablog.jp/"
       >
         ブログ
       </a>

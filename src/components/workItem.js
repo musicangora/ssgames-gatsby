@@ -7,7 +7,9 @@ const WorkItem = props => (
       margin: `16px 0 48px`,
     }}
   >
-    <img style={{ margin: 0 }} src={props.src} />
+    <a href={props.link}>
+      <img style={{ margin: 0 }} src={props.src} />
+    </a>
     <h3
       style={{
         fontSize: `12px`,
