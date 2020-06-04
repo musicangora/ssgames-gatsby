@@ -31,6 +31,7 @@ const Header = ({ siteTitle }) => (
           fontWeight: 600,
           color: `white`,
           textDecoration: `none`,
+          fontFamily: `Source Sans Pro`,
         }}
       >
         {siteTitle}

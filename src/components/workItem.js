@@ -13,7 +13,7 @@ const WorkItem = props => (
     <h3
       style={{
         fontSize: `12px`,
-        fontFamily: `sans-serif`,
+        fontFamily: `Source Sans Pro`,
         fontWeight: 400,
         lineHeight: 1,
         letterSpacing: `0.5px`,
@@ -25,14 +25,17 @@ const WorkItem = props => (
     </h3>
     <h3
       style={{
+        fontFamily: `Source Sans Pro`,
         fontSize: `20px`,
         fontWeight: 600,
+        margin: 0,
       }}
     >
       {props.title}
     </h3>
     <p
       style={{
+        fontFamily: `Source Sans Pro`,
         fontSize: `16px`,
       }}
     >

@@ -30,28 +30,9 @@ const Layout = ({ children }) => {
           padding: `140px 0 120px`,
           color: `white`,
           textAlign: `center`,
-          fontFamily: `sans-serif`,
+          fontFamily: `Source Sans Pro`,
         }}
-      >
-        {/* <h1
-          style={{
-            fontSize: `36px`,
-            fontWight: 600,
-            letterSpacing: `1px`,
-            lineHeight: `1.4`,
-          }}
-        >
-          SS-Games
-        </h1>
-        <p
-          style={{
-            fontSize: `18px`,
-            letterSpacing: `0.5px`,
-          }}
-        >
-          ゲーム制作をしています
-        </p> */}
-      </div>
+      ></div>
       <main>{children}</main>
       <footer
         style={{

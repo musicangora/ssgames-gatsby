@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
-import "minireset.css"
+import "./reset.css"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -51,7 +51,7 @@ const IndexPage = () => (
         >
           ゲーム
         </h2>
-        <ul>
+        <ul style={{ margin: 0, padding: 0 }}>
           <WorkItem
             src={SpaceCleaner}
             category="2019 - Android App"
@@ -80,6 +80,7 @@ const IndexPage = () => (
           <LogoImage />
           <p
             style={{
+              fontFamily: `Source Sans Pro`,
               fontWeight: 600,
               marginBottom: `10px`,
             }}
@@ -89,8 +90,9 @@ const IndexPage = () => (
           <div>
             <a
               style={{
+                fontFamily: `Source Sans Pro`,
                 color: `#222`,
-                fontSize: `16px`,
+                fontSize: `18px`,
                 margin: `16px`,
                 textDecoration: `none`,
               }}
@@ -100,8 +102,9 @@ const IndexPage = () => (
             </a>
             <a
               style={{
+                fontFamily: `Source Sans Pro`,
                 color: `#222`,
-                fontSize: `16px`,
+                fontSize: `18px`,
                 margin: `16px`,
                 textDecoration: `none`,
               }}
