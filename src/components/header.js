@@ -5,29 +5,78 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      position: `absolute`,
+      top: 0,
+      left: 0,
+      right: 0,
+      height: `72px`,
+      width: `100%`,
+      maxWidth: `960px`,
+      display: `flex`,
+      alignItems: `center`,
+      margin: `0 auto`,
+      padding: `0 15px`,
+      color: `white`,
+      textShadow: `2px 2px 8px rgba(0,0,0,0.5)`,
+      fontFamily: `sans-serif`,
+      zIndex: `999`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+    <h1>
+      <Link
+        to="/"
+        style={{
+          fontSize: `20px`,
+          letterSpacing: `1.5px`,
+          fontWeight: 600,
+          color: `white`,
+          textDecoration: `none`,
+        }}
+      >
+        {siteTitle}
+      </Link>
+    </h1>
+    <nav style={{ marginLeft: `auto` }}>
+      <a
+        style={{
+          color: `white`,
+          fontSize: `15px`,
+          marginLeft: `20px`,
+          textDecoration: `none`,
+          fontWeight: 600,
+          letterSpacing: `0.5px`,
+        }}
+        href="#about"
+      >
+        私たちについて
+      </a>
+      <a
+        style={{
+          color: `white`,
+          fontSize: `15px`,
+          marginLeft: `20px`,
+          textDecoration: `none`,
+          fontWeight: 600,
+          letterSpacing: `0.5px`,
+        }}
+        href="#works"
+      >
+        ゲーム
+      </a>
+      <a
+        style={{
+          color: `white`,
+          fontSize: `15px`,
+          marginLeft: `20px`,
+          textDecoration: `none`,
+          fontWeight: 600,
+          letterSpacing: `0.5px`,
+        }}
+        href="#"
+      >
+        ブログ
+      </a>
+    </nav>
   </header>
 )
 
